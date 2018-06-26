@@ -1,0 +1,46 @@
+body {
+	font-size: 14px;
+
+}
+
+.widget-container {
+	height: 400px;
+	color: #e8e8e8;
+	background: url(../img/WEATHER_BG.png) no-repeat ;
+	background-size: cover;
+}
+
+.widget-container .today-bar {
+	height: 50%;
+}
+
+.widget-container .today-bar .big-info{
+	padding-left: 6%;
+}
+
+.widget-container .today-bar .big-info .temp{
+	font-size: 4em;
+	font-weight: 300;
+}
+
+.widget-container .today-bar .big-info .condition{
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.widget-container .today-bar .big-info .location{
+	font-size: 2.3em;
+	font-weight: 300;
+}
+
+
+
+.widget-container .forecast-bar {
+	height: 50%;
+}
+
+.widget-container .forecast-bar .forecast-day div {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+}
